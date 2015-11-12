@@ -6,7 +6,16 @@ h1 {
 h3 {
   line-height:1.2;
   color:#1A2934;
-  
+}
+
+.h4-vert-bar-title {
+  line-height:1.8;
+  color:#1A2934;
+  font-weight:bold;
+  text-align:center;
+  font-family:'Lato';
+  margin-top:0px;
+  margin-bottom:5px;
 }
 
 .h3-link:hover {
@@ -107,6 +116,16 @@ th, td {
   padding-bottom:3px;
 }
 
+.navbar-default-vert {
+  background-color:#5483A5;
+  border-color:#5483A5;
+  padding-bottom:10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #D1E6E9;
+}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   background-color:#9CB8CD;
   color:#37566C;
@@ -117,12 +136,13 @@ th, td {
   outline-offset:-9px;
 }
 
-.navbar navbar-default navbar-fixed-top {
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   background-color:#37566C;
+  color:#FFFFFF;
 }
 
 .nav-home {
-
+  
 }
 
 .active {
@@ -131,6 +151,16 @@ th, td {
   outline-style:solid;
   outline-width: 3px;
   outline-offset:-5px;
+  background-color:#9CB8CD;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color:#9CB8CD;
+  color:#37566C;
+  outline-color:#37566C;
+  outline-style:solid;
+  outline-width: 3px;
+  outline-offset:-7px;
 }
 
 iframe {
@@ -297,6 +327,8 @@ h2:hover {
   outline-offset: -10px;
 }
 
+
+
 .readMore {
   color:#37566C;
   outline-color:transparent;
@@ -380,6 +412,7 @@ h2:hover {
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none;
+    background-color:#37566C;
   }
   .sidebar-nav .navbar ul {
     float: none;
@@ -400,7 +433,61 @@ h2:hover {
     margin-right:-15px;
     padding:0px;
   }
+  .dropdown-menu {
+    background-color: #D1E6E9;
+    margin-left:100px;
+    border-top-color:#37566C;
+    border-top-style:solid;
+    border-top-width:10px;
+  }
+  
+
+
+
 }
+
+..navbar-default .navbar-nav>.open>a:hover {
+  background-color:#D1E6E9;
+}
+
+.blog-vert-bar:hover {
+  color:#D1E6E9;
+  outline-color:#37566C;
+  outline-style:solid;
+  outline-width: 3px;
+  outline-offset: -10px;
+  background-color:#D1E6E9;
+}
+
+.dropdown-menu .blog-vert-bar {
+  color:#37566C;
+  font-weight:bold;
+}
+
+.dropdown-open {
+  outline-color:#37566C;
+  color:#37566C;
+  outline-style:solid;
+  outline-width: 3px;
+  outline-offset:-9px;
+}
+
+.vert-bar-title {
+  background-color:#5483A5;
+}
+
+.vert-bar-title:hover {
+  background-color:#5483A5;
+  outline-width:0px;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color:#D1E6E9;
+  color:#37566C;
+}
+
+
+
 
 
 
